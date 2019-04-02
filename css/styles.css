@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+body{
+
+	
+	padding:9em; 
+
+}
+
+h1 {
+	font-family: 'Righteous';
+	font-size: 3.9em;
+	width: 25%;
+	color: red;
+	line-height: 1em;
+}
+
+
+button {
+	background:none;
+	border:1px solid black;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	padding: .5em 1em;
+	cursor: pointer;
+}
+
+
+.panel {
+	position: absolute;
+	width: 55%;
+	bottom:0;
+	right: 0;
+	background:#EAEAEA;
+	box-sizing: border-box;
+	padding: 15% 7%;
+	transform: scaleY(0);
+	transform-origin: bottom;
+
+
+	}
+
+img {
+
+	width: 180px;
+	float: left;
+	margin-right: 50px;
+	opacity: 0;
+	transform: translateY(200px);
+
+}
+
+p {
+	font-size: 1.4em;
+	width: 90%;
+	font-family: 'Montserrat';
+	opacity: 0;
+
+}
+
+.box {
+	border: 5px solid lightgray;
+	width: 65%;
+	height: 60%;
+	position: absolute;
+	left: -7%;
+	top: 15%;
+	opacity: 0;
+	z-index: -1;
+	transform: scale(0);
+}
